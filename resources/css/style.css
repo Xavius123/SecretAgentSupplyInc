@@ -1,0 +1,71 @@
+html{
+  font-family: Helvetica;
+}
+
+
+.topbar{
+  display: flex;
+  width: 1050px;
+  height: 90px;
+  background-color: black;
+}
+.logo{
+border: 1px dotted white;
+}
+.logotext{
+  width: 600px;
+  height: 90px;
+  color: white;
+  border: 1px dotted white;
+}
+.jumbotron{
+  display: flex;
+  flex-direction: row;
+  width: 1050px;
+  height: 600px;
+  border: 1px dotted black;
+  background-image: url(../images/moto.jpeg);
+}
+.motoblack{
+  display: flex;
+  width: 600px;
+  height: 300px;
+  border: 1px dotted black;
+  margin-left: 150px;
+  margin-top: 250px;
+  background-color: black;
+}
+.motonewarrival{
+  width: 100%;
+  height: 150px;
+  border: 1px dotted white;
+  color: white;
+}
+.sportsbike{
+  width: 100%;
+  height: 150px;
+  border: 1px dotted white;
+  color: white;
+  margin-top: 115px;
+}
+.redmenu{
+  display: flex;
+  width: 1050px;
+  height: 60px;
+  color: white;
+  background-color: firebrick;
+  word-spacing: 100px;
+}
+.whitebox{
+  display: flex;
+  width: 1050px;
+  height: 500px;
+  border: 1px dotted black;
+}
+.blackbox{
+  display: flex;
+  width: 1050px;
+  height: 200px;
+  border: 1px dotted black;
+  background-color: black;
+}

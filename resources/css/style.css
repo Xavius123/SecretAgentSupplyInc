@@ -1,5 +1,6 @@
 html{
   font-family: Helvetica;
+  font-size: 18px;
 }
 
 
@@ -18,7 +19,8 @@ border: 1px dotted white;
   color: white;
   border: 1px dotted white;
 }
-.jumbotron{
+
+.jumbotron{ /*The header of the website ends here*/
   display: flex;
   flex-direction: row;
   width: 1050px;
@@ -40,15 +42,17 @@ border: 1px dotted white;
   height: 150px;
   border: 1px dotted white;
   color: white;
+  font-size: 1rem;
+  font-weight: bold;
 }
-.sportsbike{
+.sportsbike{ /*The jumbotron of the website starts here*/
   width: 100%;
   height: 150px;
   border: 1px dotted white;
   color: white;
-  margin-top: 115px;
+  margin-top: 115px;/**/
 }
-.redmenu{
+.redmenu{/*The red menu/nav bar of the website starts here*/
   display: flex;
   width: 1050px;
   height: 60px;
@@ -56,16 +60,16 @@ border: 1px dotted white;
   background-color: firebrick;
   word-spacing: 100px;
 }
-.whitebox{
+.whitebox{ /*The white box with 3 boxes starts here*/
   display: flex;
   width: 1050px;
   height: 500px;
   border: 1px dotted black;
 }
-.blackbox{
+.blackbox{ /*The footer starts here*/
   display: flex;
   width: 1050px;
-  height: 200px;
+  height: 5rem;
   border: 1px dotted black;
   background-color: black;
 }

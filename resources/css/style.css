@@ -56,11 +56,11 @@ border: 1px dotted white;
 /************************************************************/
 .redmenu{/*The red menu/nav bar of the website starts here*/
   display: flex;
-  width: 1050px;
+  width: 1200px;
   height: 60px;
   color: white;
   background-color: firebrick;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .redmenu p {/*The red menu/nav bar of the website starts here*/
   color: white;
@@ -95,8 +95,8 @@ border: 1px dotted white;
   color: white;
 }
 .box img { /**/
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-color: white;
   color: white;
 }

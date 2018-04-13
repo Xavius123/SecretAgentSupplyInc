@@ -6,7 +6,7 @@ html{
 
 .topbar{
   display: flex;
-  width: 1050px;
+  width: 1200px;
   height: 90px;
   background-color: black;
 }
@@ -23,10 +23,11 @@ border: 1px dotted white;
 .jumbotron{ /*The header of the website ends here*/
   display: flex;
   flex-direction: row;
-  width: 1050px;
+  width: 1200px;
   height: 600px;
   border: 1px dotted black;
   background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
 }
 .motoblack{
   display: flex;
@@ -59,12 +60,12 @@ border: 1px dotted white;
   height: 60px;
   color: white;
   background-color: firebrick;
+  justify-content: space-between;
 }
 .redmenu p {/*The red menu/nav bar of the website starts here*/
   color: white;
   background-color: firebrick;
   margin-top: 15px;
-  justify-content: space-between;
 }
 
 

@@ -85,10 +85,8 @@ html{
   display: flex;
   width: 1200px;
   height: 300px;
-  border: 1px dotted black;
+  /*border: 1px dotted black;*/
   margin-top: 50px;
-  /*margin-left: 150px;
-  /*margin-right: 150px;*/
   justify-content:space-around;
 }
 /************************************************************/
@@ -112,7 +110,6 @@ html{
   height: 9rem;
   margin-top: 1.5rem;
   margin-left: 75px;
-  border: 1px dotted pink;
   background-color: white;
   color: white;
 }
@@ -125,30 +122,41 @@ html{
 .locationhours{ /* Location and Hours box benith */
   display: flex;
   width: 1200px;
-  height: 200px;
-  border: 1px dotted black;
+  height: 3.3rem;
+  /*border: 2px dotted pink;*/
 }
 .lhcontainer{
   width: 600px;
   height: 60px;
-  border: 1px dotted black;
 }
-.lhbox{   /*black box with location and hours*/
+.lhbox{   /*black box with location */
   width: 67%;
   height: 60px;
   background-color: black;
   color: white;
   margin-left: 42px;
-
 }
-.lhbox2{
+
+.lhbox2{ /*black box with hours*/
   width: 65%;
   height: 60px;
   background-color: black;
   color: white;
   margin-left: 165px;
 }
-
+.lhcontainerbottom{
+  display: flex;
+  width: 1200px;
+  height: 4rem;
+}
+.lhboxbottom{
+  width: 35%;
+  margin-left: 43px;
+}
+.lhboxbottom2{
+  width: 35%;
+  margin-left: 302px;
+}
 /************************************************************/
 .blackbox{ /*The footer starts here*/
   display: flex;

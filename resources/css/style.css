@@ -154,7 +154,7 @@ html{
 }
 .lhboxbottom2{
   width: 35%;
-  margin-left: 302px;
+  margin-left: 285px;
 }
 /************************************************************/
 .blackbox{ /*The footer starts here*/
@@ -167,3 +167,6 @@ html{
   padding-top: 100px;
   padding-left: 155px;
 }
+
+@media screen and (min-width: 480px) and (min-width: 1200px) and
+(orientation: portrait){}

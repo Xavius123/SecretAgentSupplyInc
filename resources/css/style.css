@@ -123,14 +123,13 @@ html{
   display: flex;
   width: 1200px;
   height: 3.3rem;
-  /*border: 2px dotted pink;*/
 }
 .lhcontainer{
   width: 600px;
   height: 60px;
 }
 .lhbox{   /*black box with location */
-  width: 67%;
+  width: 68%;
   height: 60px;
   background-color: black;
   color: white;
@@ -138,11 +137,11 @@ html{
 }
 
 .lhbox2{ /*black box with hours*/
-  width: 65%;
+  width: 68%;
   height: 60px;
   background-color: black;
   color: white;
-  margin-left: 165px;
+  margin-left: 148px;
 }
 .lhcontainerbottom{
   display: flex;

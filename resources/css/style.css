@@ -175,25 +175,29 @@ html{
   width: 300;
   height: 300;
 }
-}
-@media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
-
-.redmenu{
+.jumbotron{ /*The header of the website ends here*/
   display: flex;
-  width: 780px;
-  height: 60px;
-  color: white;
-  background-color: firebrick;
-  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 25rem;
+  background-image: url(../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-}
-@media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
-
-  .whitebox{ /*The white box with 3 boxes starts here*/
-    flex-wrap: wrap;
-    width: 45%;
-    height: 63rem;
+.whitebox{ /*The white box with 3 boxes starts here*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  height: 63rem;
 }
 .threebox{
+display: flex;
+flex-wrap: wrap;
+/*width: 45%;*/
+}
+.locationhours{ /* Location and Hours box benith */
+  display: flex;
+  width: 600px;
+  height: 3.3rem;
 }
 }

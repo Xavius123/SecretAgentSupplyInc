@@ -85,7 +85,6 @@ html{
   display: flex;
   width: 1200px;
   height: 300px;
-  /*border: 1px dotted black;*/
   margin-top: 50px;
   justify-content:space-around;
 }
@@ -168,5 +167,33 @@ html{
   padding-left: 155px;
 }
 
-@media screen and (min-width: 480px) and (min-width: 1200px) and
-(orientation: portrait){}
+@media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
+
+.topbar{
+  display: flex;
+  font-size: 25px;
+  width: 300;
+  height: 300;
+}
+}
+@media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
+
+.redmenu{
+  display: flex;
+  width: 780px;
+  height: 60px;
+  color: white;
+  background-color: firebrick;
+  justify-content: space-around;
+}
+}
+@media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
+
+  .whitebox{ /*The white box with 3 boxes starts here*/
+    flex-wrap: wrap;
+    width: 45%;
+    height: 63rem;
+}
+.threebox{
+}
+}

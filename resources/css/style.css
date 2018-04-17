@@ -66,12 +66,15 @@ html{
   color: white;
   background-color: firebrick;
   justify-content: space-around;
+  align-items: center;
 }
-.redmenu p {/*The red menu/nav bar of the website starts here*/
+.redmenu ul {/*The red menu/nav bar of the website starts here*/
+  display: inline;
   color: white;
   background-color: firebrick;
   margin-top: 1rem;
   text-align: center;
+
 }
 
 
@@ -166,8 +169,30 @@ html{
   padding-top: 100px;
   padding-left: 155px;
 }
+@media only screen and (min-width: 780px) and (max-width: 1100px) and (orientation: portrait){
 
+.mobile-navcontainer {
+  display:none;
+
+}
+
+
+
+
+
+}
 @media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
+
+  .mobile-navcontainer {
+    display:block;
+    text-align: center;
+  }
+  .redmenu p {
+    display: none;
+    text-align: center;
+  }
+
+
 
 .topbar{
   display: flex;

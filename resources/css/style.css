@@ -59,21 +59,21 @@ html{
   color: white;
 }
 /************************************************************/
-.redmenu{/*The red menu/nav bar of the website starts here*/
+nav{/*The red menu/nav bar of the website starts here*/
   display: flex;
   width: 1200px;
   height: 60px;
   color: white;
   background-color: firebrick;
   justify-content: space-around;
-  align-items: center;
 }
-.redmenu ul {/*The red menu/nav bar of the website starts here*/
+nav li {/*The red menu/nav bar of the website starts here*/
   display: inline;
   color: white;
   background-color: firebrick;
   margin-top: 1rem;
   text-align: center;
+  list-style-type: none;
 
 }
 
@@ -169,60 +169,41 @@ html{
   padding-top: 100px;
   padding-left: 155px;
 }
-@media only screen and (min-width: 780px) and (max-width: 1100px) and (orientation: portrait){
+
+
+/* MEDIA QQQ */
+
+
+
+@media only screen and (min-width: 780px) and (max-width: 1200px) and (orientation: portrait){ /*Computer display*/
 
 .mobile-navcontainer {
   display:none;
-
+}
+.lhboxbottom2{
+  display:none;
+}
+.lhbox2{
+  display:none;
 }
 
 
-
-
-
 }
-@media all and (min-width: 240px) and (max-width: 780px) and (orientation: portrait){
+@media only screen and (min-width: 200px) and (max-width: 780px) and (orientation: portrait){ /*Ipad display*/
 
-  .mobile-navcontainer {
-    display:block;
-    text-align: center;
-  }
-  .redmenu p {
-    display: none;
-    text-align: center;
-  }
+nav li {
+display:none;
+}
+
+.mobile-navcontainer {
+align-items: center;
+}
+.lhboxbottom2{
+  display:none;
+}
+.lhbox2{
+  display:none;
+}
 
 
-
-.topbar{
-  display: flex;
-  font-size: 25px;
-  width: 300;
-  height: 300;
-}
-.jumbotron{ /*The header of the website ends here*/
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 25rem;
-  background-image: url(../images/moto.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.whitebox{ /*The white box with 3 boxes starts here*/
-  display: flex;
-  flex-wrap: wrap;
-  width: 45%;
-  height: 63rem;
-}
-.threebox{
-display: flex;
-flex-wrap: wrap;
-/*width: 45%;*/
-}
-.locationhours{ /* Location and Hours box benith */
-  display: flex;
-  width: 600px;
-  height: 3.3rem;
-}
 }

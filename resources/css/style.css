@@ -2,11 +2,14 @@ html{
   font-family: Helvetica;
   font-size: 18px;
 }
+footer {
+  width: 1040;
+}
 
 
 .topbar{
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 2.7rem;
   background-color: black;
 }
@@ -28,7 +31,7 @@ html{
 .jumbotron{ /*The header of the website ends here*/
   display: flex;
   flex-direction: row;
-  width: 1200px;
+  width: 1040px;
   height: 25rem;
   background-image: url(../images/moto.jpeg);
   background-repeat: no-repeat;
@@ -61,7 +64,7 @@ html{
 /************************************************************/
 nav{/*The red menu/nav bar of the website starts here*/
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 60px;
   color: white;
   background-color: firebrick;
@@ -81,12 +84,12 @@ nav li {/*The red menu/nav bar of the website starts here*/
 /************************************************************/
 .whitebox{ /*The white box with 3 boxes starts here*/
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 20.5rem;
 }
 .threebox{ /**/
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 300px;
   margin-top: 50px;
   justify-content:space-around;
@@ -123,7 +126,7 @@ nav li {/*The red menu/nav bar of the website starts here*/
 }
 .locationhours{ /* Location and Hours box benith */
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 3.3rem;
 }
 .lhcontainer{
@@ -147,7 +150,7 @@ nav li {/*The red menu/nav bar of the website starts here*/
 }
 .lhcontainerbottom{
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 4rem;
 }
 .lhboxbottom{
@@ -161,21 +164,63 @@ nav li {/*The red menu/nav bar of the website starts here*/
 /************************************************************/
 .blackbox{ /*The footer starts here*/
   display: flex;
-  width: 1200px;
+  width: 1040px;
   height: 5rem;
   background-color: black;
   color: white;
   text-align: center;
   padding-top: 100px;
   padding-left: 155px;
+  border: 2px solid red;
 }
 
 
 /* MEDIA QQQ */
 
 
+@media only screen and (max-width: 1040px){ /*this is the size of an ipad*/
 
-@media only screen and (min-width: 780px) and (max-width: 1200px) and (orientation: portrait){ /*Computer display*/
+.mobile-navcontainer {
+    display:none;
+  }
+
+.whitebox{ /*The white box with 3 boxes starts here*/
+    display: flex;
+    width: 1040px;
+    height: 35rem;
+  }
+.box #ipadglasses {
+   display:none;
+}
+.blackbox {
+  width: 1040px;
+}
+
+}
+@media only screen and (max-width: 470px){ /*this is the size of an iphone*/
+
+.topbar{
+    display: flex;
+    width: 470px;
+    height: 2.7rem;
+    background-color: black;
+}
+.logo{
+  display:none;
+}
+.logotext{
+  width: 600px;
+  height: 2rem;
+  text-align: center;
+  color: white;
+}
+.mobile-navcontainer {
+    display:none;
+  }
+
+}
+
+/*@media only screen and (min-width: 780px) and (max-width: 1200px) and (orientation: portrait){ /*Computer display
 
 .mobile-navcontainer {
   display:none;
@@ -189,7 +234,7 @@ nav li {/*The red menu/nav bar of the website starts here*/
 
 
 }
-@media only screen and (min-width: 200px) and (max-width: 780px) and (orientation: portrait){ /*Ipad display*/
+@media only screen and (min-width: 200px) and (max-width: 780px) and (orientation: portrait){ /*Ipad display
 
 nav li {
 display:none;
@@ -206,4 +251,4 @@ align-items: center;
 }
 
 
-}
+} */

@@ -178,7 +178,7 @@ nav li {/*The red menu/nav bar of the website starts here*/
 /* MEDIA QQQ */
 
 
-@media only screen and (max-width: 1040px){ /*this is the size of an ipad*/
+@media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
 
 .mobile-navcontainer {
     display:none;
@@ -198,57 +198,44 @@ nav li {/*The red menu/nav bar of the website starts here*/
 
 }
 @media only screen and (max-width: 470px){ /*this is the size of an iphone*/
-
+/*topnav*/
 .topbar{
     display: flex;
     width: 470px;
     height: 2.7rem;
     background-color: black;
 }
+/*topnav text*/
 .logo{
-  display:none;
 }
 .logotext{
   width: 600px;
   height: 2rem;
-  text-align: center;
   color: white;
 }
-.mobile-navcontainer {
-    display:none;
-  }
-
+/*jumbotron*/
+.jumbotron{
+  width: 470px;
 }
-
-/*@media only screen and (min-width: 780px) and (max-width: 1200px) and (orientation: portrait){ /*Computer display
-
-.mobile-navcontainer {
-  display:none;
+.motoblack{
+  height: 5rem;
+  width: 470px;
+  margin-left: 0px
 }
-.lhboxbottom2{
-  display:none;
+.motonewarrival{
+font-size: 1rem;
 }
-.lhbox2{
-  display:none;
+.sportsbike{
+font-size: 1rem;
 }
-
-
+/*red nav bar*/
+nav {
+width: 470px;
 }
-@media only screen and (min-width: 200px) and (max-width: 780px) and (orientation: portrait){ /*Ipad display
-
 nav li {
 display:none;
 }
-
 .mobile-navcontainer {
-align-items: center;
-}
-.lhboxbottom2{
-  display:none;
-}
-.lhbox2{
-  display:none;
-}
+  }
 
-
-} */
+}

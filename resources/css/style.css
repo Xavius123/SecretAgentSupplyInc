@@ -237,5 +237,14 @@ display:none;
 }
 .mobile-navcontainer {
   }
-
+  /* white item box with 3 items in it*/
+.whitebox{ /*The white box with 3 boxes starts here*/
+      display: flex;
+      width: 470px;
+      height: 45rem;
+    }
+  /*footer*/
+  .blackbox {
+    width: 470px;
+  }
 }

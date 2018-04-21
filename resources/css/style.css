@@ -181,9 +181,9 @@ nav li {/*The red menu/nav bar of the website starts here*/
 */
 @media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
 
-.mobile-navcontainer {
-display:block;
-}
+  nav p{
+    display: none; /*i hate you so much red menu */
+  }
 
 .whitebox{ /*The white box with 3 boxes starts here*/
     display: flex;
@@ -234,24 +234,42 @@ width: 470px;
 nav li {
 display:none;
 }
+nav p{
+  align-items: center; /*i hate you so much red menu */
+}
 .mobile-navcontainer {
   }
   /* white item box with 3 items in it*/
 .whitebox{ /*The white box with 3 boxes starts here*/
 display: flex;
-flex-flow: column;
 width: 470px;
-height: 45rem;
-    }
-.box {
-display: flex;
-flex-flow: column;
+height: 20rem;
+border: 1px dotted black;
 }
-.box #ipadglasses {
-display: flex;
-flex-flow: column;
+.box{ /*black box*/
+  width: 51%;
+  height: 14.5rem;
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+}
+}
+#cellw{
+display: none;
 }
 
+#ipadglasses {
+display: none;
+}
+.locationhours{ /* Location and hours of the shop*/
+justify-content: flex-start;
+width: 470px;
+height: 250px;
+display: block;
+}
+.lhcontainer{
+  margin-left: 0px;
+}
   /*footer footer footer footer footer*/
 .blackbox {
     width: 470px;

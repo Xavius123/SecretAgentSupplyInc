@@ -176,13 +176,17 @@ nav li {/*The red menu/nav bar of the website starts here*/
 
 
 /* MEDIA QQQ */
+@media only screen and (min-width: 1040px){
 
+.mobile-navcontainer {
+  display:none;
+  }
 
 @media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
 
 .mobile-navcontainer {
-    display:none;
-  }
+display:none;
+}
 
 .whitebox{ /*The white box with 3 boxes starts here*/
     display: flex;
@@ -239,10 +243,15 @@ display:none;
   }
   /* white item box with 3 items in it*/
 .whitebox{ /*The white box with 3 boxes starts here*/
-      display: flex;
-      width: 470px;
-      height: 45rem;
+display: flex;
+flex-flow: column;
+width: 470px;
+height: 45rem;
     }
+.box {
+display: flex;
+flex-flow: column;
+}
   /*footer*/
   .blackbox {
     width: 470px;

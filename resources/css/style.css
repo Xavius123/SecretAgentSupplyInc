@@ -1,9 +1,7 @@
 html{
   font-family: Helvetica;
   font-size: 18px;
-}
-footer {
-  width: 1040;
+  width: 100%;
 }
 
 
@@ -163,7 +161,7 @@ nav li {/*The red menu/nav bar of the website starts here*/
 /************************************************************/
 .blackbox{ /*The footer starts here*/
   display: flex;
-  width: 1040px;
+  width: 100%;
   height: 5rem;
   background-color: black;
   color: white;
@@ -175,12 +173,12 @@ nav li {/*The red menu/nav bar of the website starts here*/
 
 
 /* MEDIA QQQ */
-@media only screen and (min-width: 1040px){
+/*@media only screen and (min-width: 1040px){
 
 .mobile-navcontainer {
   display:none;
   }
-
+*/
 @media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
 
 .mobile-navcontainer {
@@ -192,9 +190,7 @@ display:block;
     width: 1040px;
     height: 35rem;
   }
-#ipadglasses {
-   display:none;
-}
+
 .blackbox {
   width: 1040px;
 }
@@ -206,7 +202,7 @@ display:block;
     display: flex;
     width: 470px;
     height: 2.7rem;
-    background-color: black;
+    background-color: blue;
 }
 /*topnav text*/
 .logo{

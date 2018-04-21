@@ -80,7 +80,6 @@ nav li {/*The red menu/nav bar of the website starts here*/
 
 }
 
-
 /************************************************************/
 .whitebox{ /*The white box with 3 boxes starts here*/
   display: flex;
@@ -185,7 +184,7 @@ nav li {/*The red menu/nav bar of the website starts here*/
 @media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
 
 .mobile-navcontainer {
-display:none;
+display:block;
 }
 
 .whitebox{ /*The white box with 3 boxes starts here*/
@@ -193,7 +192,7 @@ display:none;
     width: 1040px;
     height: 35rem;
   }
-.box #ipadglasses {
+#ipadglasses {
    display:none;
 }
 .blackbox {
@@ -252,8 +251,13 @@ height: 45rem;
 display: flex;
 flex-flow: column;
 }
-  /*footer*/
-  .blackbox {
+.box #ipadglasses {
+display: flex;
+flex-flow: column;
+}
+
+  /*footer footer footer footer footer*/
+.blackbox {
     width: 470px;
-  }
+}
 }

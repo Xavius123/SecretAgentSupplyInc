@@ -220,6 +220,13 @@ nav p{
     width: 800px;
     height: 400px;
 }
+.box{ /*black box*/
+  width: 30%;
+  height: 14.5rem;
+  border: 3px solid black;
+  background-color: black;
+  color: white;
+}
 #ipadglasses {
 display: none;
 }

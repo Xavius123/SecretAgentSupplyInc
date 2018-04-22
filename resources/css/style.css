@@ -180,16 +180,18 @@ nav li {/*The red menu/nav bar of the website starts here*/
   }
 */
 @media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
-
-  nav p{
+.topbar{
+background-color: red;
+}
+nav p{
     display: none; /*i hate you so much red menu */
-  }
+}
 
 .whitebox{ /*The white box with 3 boxes starts here*/
     display: flex;
     width: 1040px;
     height: 35rem;
-  }
+}
 
 .blackbox {
   width: 1040px;
@@ -225,15 +227,16 @@ display: none;
   width: 470px;
 }
 .motoblack{
-  height: 5rem;
+  height: 9rem;
   width: 470px;
-  margin-left: 0px
+  margin-top: 288px;
+  margin-left: 0px;
 }
 .motonewarrival{
 font-size: 1rem;
 }
 .sportsbike{
-font-size: 1rem;
+font-size: 2rem;
 }
 /*red nav bar*/
 nav {
@@ -261,7 +264,6 @@ border: 1px dotted black;
   background-color: black;
   color: white;
 }
-}
 #cellw {
 display: none;
 }
@@ -286,6 +288,9 @@ margin-left: 0px;
 .lhbox2 {
 width: 470px;
 margin-left: 0px;
+}
+.lhcontainerbottom{
+display: none;
 }
 
   /*footer footer footer footer footer*/

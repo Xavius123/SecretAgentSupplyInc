@@ -179,9 +179,14 @@ nav li {/*The red menu/nav bar of the website starts here*/
   display:none;
   }
 */
+@media only screen and (min-width: 1041px){
+.mobile-navcontainer{
+display: none;
+}
+}
+
 @media only screen and (min-width: 470px) and (max-width: 1040px){ /*this is the size of an ipad*/
 .topbar{
-background-color: red;
 width: 800px;
 }
 /*jumbotron********************/
@@ -214,7 +219,7 @@ nav p{
 
 }
 .mobile-navcontainer {
-  }
+}
 
 .whitebox{ /*The white box with 3 boxes starts here*/
     display: flex;
@@ -235,9 +240,8 @@ display: none;
 width: 800px;
 border: 1px dotted red;
 }
-footer{
+footer {
   width: 800px;
-}
 }
 @media only screen and (max-width: 470px){ /*this is the size of an iphone*/
 

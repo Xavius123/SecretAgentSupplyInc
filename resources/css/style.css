@@ -1,7 +1,7 @@
 html{
   font-family: Helvetica;
   font-size: 18px;
-  width: 100%;
+  width: 1040;
 }
 
 
@@ -197,12 +197,20 @@ nav li {/*The red menu/nav bar of the website starts here*/
 
 }
 @media only screen and (max-width: 470px){ /*this is the size of an iphone*/
+
+.logotext h1 {
+display: none;
+}
+
 /*topnav*/
 .topbar{
     display: flex;
     width: 470px;
     height: 2.7rem;
     background-color: blue;
+}
+.topbar img {
+  align-items: center;
 }
 /*topnav text*/
 .logo{
@@ -254,7 +262,7 @@ border: 1px dotted black;
   color: white;
 }
 }
-#cellw{
+#cellw {
 display: none;
 }
 
@@ -268,8 +276,18 @@ height: 250px;
 display: block;
 }
 .lhcontainer{
-  margin-left: 0px;
+width: 470px;
+margin: 0px;
 }
+.lhbox {
+width: 470px;
+margin-left: 0px;
+}
+.lhbox2 {
+width: 470px;
+margin-left: 0px;
+}
+
   /*footer footer footer footer footer*/
 .blackbox {
     width: 470px;

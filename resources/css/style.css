@@ -1,7 +1,7 @@
 html{
   font-family: Helvetica;
   font-size: 18px;
-  width: 1040;
+  width: 1040px;
 }
 
 
@@ -166,9 +166,9 @@ nav li {/*The red menu/nav bar of the website starts here*/
   background-color: black;
   color: white;
   text-align: center;
-  padding-top: 100px;
+/*  padding-top: 100px;
   padding-left: 155px;
-  border: 2px solid red;
+  border: 2px solid red; */
 }
 
 
@@ -209,6 +209,7 @@ nav li {
 display:none;
 }
 nav p{
+  margin-top: 17px;
   align-items: center; /*i hate you so much red menu ****************/
 
 }
@@ -245,7 +246,7 @@ display: none;
 }
 
 /*topnav*/
-.topbar{
+.topbar {
     display: flex;
     width: 470px;
     height: 2.7rem;
@@ -275,7 +276,7 @@ display: none;
 .motonewarrival{
 font-size: 1rem;
 }
-.sportsbike{
+.sportsbike {
 font-size: 2rem;
 }
 /*red nav bar*/
@@ -285,12 +286,12 @@ width: 470px;
 nav li {
 display:none;
 }
-nav p{
+nav p {
   align-items: center; /*i hate you so much red menu */
-
+  margin-top: 17px;
 }
 .mobile-navcontainer {
-  }
+}
   /* white item box with 3 items in it*/
 .whitebox{ /*The white box with 3 boxes starts here*/
 display: flex;
@@ -332,7 +333,7 @@ display: block;
   margin-left: 0px;
   text-align: center;
 }
-.lhcontainerbottom{
+.lhcontainerbottom {
   display: none;
 }
 
